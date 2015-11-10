@@ -28,5 +28,8 @@
     [super touchesBegan:touches withEvent:event];
     
 }
+- (void)viewDidDisappear:(BOOL)animated {
+    NSLog(@"develop");
+}
 
 @end
