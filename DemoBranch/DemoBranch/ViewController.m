@@ -24,24 +24,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [super touchesBegan:touches withEvent:event];
-    
-}
-- (void)viewDidDisappear:(BOOL)animated {
-    NSLog(@"develop");
-}
-
-- (void)viewDidAppear:(BOOL)animated {
-    NSLog(@"master");
-}
-
-
-- (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event  {
-    NSLog(@"master---three");
-     NSLog(@"master---three");
-     NSLog(@"master---three");
-     NSLog(@"master---three");
-}
-
 @end
