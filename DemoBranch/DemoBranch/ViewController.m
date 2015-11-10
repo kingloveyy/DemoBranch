@@ -36,4 +36,8 @@
     NSLog(@"master");
 }
 
+- (void)viewDidLayoutSubviews {
+    NSLog(@"develop-twe");
+}
+
 @end
