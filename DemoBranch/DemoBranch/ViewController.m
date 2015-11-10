@@ -36,8 +36,9 @@
     NSLog(@"master");
 }
 
-- (void)viewDidLayoutSubviews {
-    NSLog(@"develop-twe");
+
+- (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event  {
+    NSLog(@"master---three");
 }
 
 @end
