@@ -36,4 +36,8 @@
     NSLog(@"master");
 }
 
+- (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event  {
+    NSLog(@"master---three");
+}
+
 @end
